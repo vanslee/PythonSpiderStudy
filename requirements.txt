@@ -1,0 +1,14 @@
+# 基础依赖包（精确版本，推荐生产环境使用）
+requests==2.28.1
+flask==2.3.2
+pandas>=1.5.0,<2.0.0  # 允许1.5.0及以上但低于2.0.0的版本
+
+# 开发依赖（测试、代码格式化等）
+pytest==7.4.0
+black==23.7.0
+
+# 从Git仓库直接安装
+git+https://github.com/psf/requests-oauthlib.git@v1.3.0
+
+# 本地路径安装（需包含setup.py）
+./local_package_directory/
